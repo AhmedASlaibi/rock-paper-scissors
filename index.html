@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
+  <body>
+    <section>
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+  
+      <!-- This div will contain the score-board which will show the User and the Computer's score which starts at 0  -->
+      <div class="score-board">
+        <div id="user-label" class="tag">user</div>
+        <div id="computer-label" class="tag">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+      </div>
+      
+      <!-- this h2 is responsible for displaying the current match status to the player -->
+      <h2 class="result">
+        <p>Paper covers rock. You win!</p>
+      </h2>
+  
+      <!-- Each div consists of one of the 3 player choices for rock, paper, which we'll tie game functions to -->
+      <div class="choices">
+        <div class="choice" id="r">
+          <img src="img/rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="p">
+          <img src="img/paper.png" alt="Paper">
+        </div>
+        <div class="choice" id="s">
+          <img src="img/scissors.png" alt="Scissors">
+        </div>
+      </div>
+  
+      <p id="action-prompt">En Garde!</p>
+    </section>
+    
+    <script src="scripts/app.js" charset="utf-8"></script>
+  </body>
+</html>
