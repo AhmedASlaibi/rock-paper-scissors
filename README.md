@@ -1,2 +1,2 @@
 # rock-paper-scissors
-https://mohamed-alalwan.github.io/rock-paper-scissors
+https://AhmedASlaibi.github.io/rock-paper-scissors
